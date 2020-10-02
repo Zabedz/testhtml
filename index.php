@@ -3,6 +3,6 @@
   <title>Hello World Title</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>'; ?> 
+ <?php echo '<p>Hello World Hello World</p>'; ?> 
  </body>
 </html>
