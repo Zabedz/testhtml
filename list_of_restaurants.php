@@ -21,10 +21,10 @@
         </tr>
         
         <?php
-            $connectionInfo = array("UID" => "tp050051admin", "pwd" => "{your_password_here}", "Database" => "lab2exercise", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+            $connectionInfo = array("UID" => "tp050051admin", "pwd" => "{Serendipity97@}", "Database" => "lab2exercise", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
             $serverName = "tcp:lab2tp050051.database.windows.net,1433";
             $conn = sqlsrv_connect($serverName, $connectionInfo);
-        if (!$conn)
+            if (!$conn)
             {
               die("Error connection: ".sqlsrv_errors());
             }
